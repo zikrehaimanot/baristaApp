@@ -10,3 +10,11 @@ body{
 .jumbotron{
   width: 30%;
 }
+@media only screen and (max-width: 800px) {
+  body{
+  background-image: url(beans.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  }
+}
